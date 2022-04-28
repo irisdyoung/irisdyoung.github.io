@@ -15,6 +15,6 @@ Iris works as a project scientist in the [Sauter group]() at [Lawrence Berkeley 
 
 Outside of the lab (and inside too), Iris is a coffee afficionado, student of various languages, avid reader, and companion to a very affectionate cat named Rory. When he has time he also enjoys aikido, pottery, cooking, and hiking. He is queer/trans/nonbinary and uses pronouns he/him, she/her, or they/them.
 
-![Iris illustration](static/img/logo/homepage_illustration.svg){:style="max-width: 100%; height: auto;"}
+![science coffee art](static/img/art/sci_coffee_art.jpeg){:style="max-width: 100%; height: auto;"}
 
 _Fact: Iris is 70% coffee by volume._
