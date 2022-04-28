@@ -13,7 +13,3 @@
 - name: posts
   url: /posts
   group: posts
-
-- name: contact
-  url: /contact
-  group: contact
