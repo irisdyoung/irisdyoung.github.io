@@ -10,9 +10,9 @@
   url: /reviews
   group: reviews
 
-- name: blog
-  url: /blog
-  group: blog
+- name: posts
+  url: /posts
+  group: posts
 
 - name: contact
   url: /contact

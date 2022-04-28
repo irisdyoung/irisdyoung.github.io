@@ -1,10 +1,11 @@
 ---
-name: Blog
+name: Posts
 layout: default
-group: blog
+group: posts
 ---
 
-<div class="page-header"><h1 class="text-center"> Ideas and Stories <br><small>In Blog Format</small> </h1></div>
+<h1>Posts</h1>
+<div class="container-fluid">
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
 <div class="row">
