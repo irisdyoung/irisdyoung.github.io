@@ -10,6 +10,19 @@ group: home
 You have found Iris' homepage. It is probably not up to date, but maybe you can find something useful here anyway.
 {: .welcomefont}
 
+<div class="col-sm-7 col-md-8">
+![science coffee art](static/img/art/sci_coffee_art.jpeg){:style="width: auto; max-height: 600px;"}
+</div>
+<!---
+<div class="col-sm-7 col-md-8">
+![stormy ocean art](static/img/art/heavy_rains_and_ocean_storms.jpeg){:style="width: auto; max-height: 600px;"}
+</div>
+<div class="col-sm-7 col-md-8">
+![xfel etched art](static/img/art/xfel_etching5.jpeg){:style="width: auto; max-height: 600px;"}
+</div>
+-->
+
+<div class="col-sm-7 col-md-8">
 Iris works as a project scientist in the [Sauter group]() at [Lawrence Berkeley National Laboratory](). He is focusing on two main projects right now, the [(sp)ectral (re)solution of (a)nomalous (d)ispersion (SPREAD)]() project and the [(exa)scale computing for X-ray (f)ree (e)lectron (l)aser diffraction experiments (ExaFEL)]() project. Essentially, these involve the development of new computational capabilities to meet instrumental demands such as the megahertz pulse rate of LCLS II and to leverage the awesome potential of these experiments.
 {: .welcomefont}
 
@@ -19,14 +32,6 @@ Iris is reachable at [irisdyoung@gmail.com](mailto:irisdyoung@gmail.com). He is 
 
 <br>
 
-<div class="col-sm-7 col-md-8">
-![science coffee art](static/img/art/sci_coffee_art.jpeg){:style="width: auto; max-height: 600px;"}
-</div>
-<div class="col-sm-7 col-md-8">
-![stormy ocean art](static/img/art/heavy_rains_and_ocean_storms.jpeg){:style="width: auto; max-height: 600px;"}
-</div>
-<div class="col-sm-7 col-md-8">
-![xfel etched art](static/img/art/xfel_etching5.jpeg){:style="width: auto; max-height: 600px;"}
-</div>
-
 _Fact: Iris is 70% coffee by volume._
+
+</div>
