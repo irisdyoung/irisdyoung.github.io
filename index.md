@@ -21,10 +21,10 @@ Iris is reachable at [irisdyoung@gmail.com](mailto:irisdyoung@gmail.com). He is 
 
 <div class="row">
     <div class="col-sm-7 col-md-8">
-        ![science coffee art](static/img/art/sci_coffee_art.jpeg){:style="max-height: 3; width:auto;"}
+        <img class="img-fluid" src="static/img/art/sci_coffee_art.jpeg" alt="science coffee art"; height="600">
     </div>
     <div class="col-sm-7 col-md-8">
-        ![stormy ocean art](static/img/art/heavy_rains_and_ocean_storms.jpeg){:style="max-height: 3; height:auto;"}
+        <img class="img-fluid" src="static/img/art/heavy_rains_and_ocean_storms.jpeg" alt="stormy ocean art"; height="600">
     </div>
 </div>
 
