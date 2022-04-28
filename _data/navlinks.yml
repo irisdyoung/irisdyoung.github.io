@@ -1,0 +1,19 @@
+- name: home
+  url: /
+  group: home
+
+- name: publications
+  url: /publications
+  group: publications
+
+- name: reviews
+  url: /reviews
+  group: reviews
+
+- name: blog
+  url: /blog
+  group: blog
+
+- name: contact
+  url: /contact
+  group: contact
