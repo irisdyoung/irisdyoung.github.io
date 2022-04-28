@@ -20,10 +20,13 @@ Iris is reachable at [irisdyoung@gmail.com](mailto:irisdyoung@gmail.com). He is 
 <br>
 
 <div class="col-sm-7 col-md-8">
-![science coffee art](static/img/art/sci_coffee_art.jpeg){:style="width: auto; max-height: 8;"}
+![science coffee art](static/img/art/sci_coffee_art.jpeg){:style="width: auto; max-height: 600px;"}
 </div>
 <div class="col-sm-7 col-md-8">
-![stormy ocean art](static/img/art/heavy_rains_and_ocean_storms.jpeg){:style="width: auto; max-height: 8;"}
+![stormy ocean art](static/img/art/heavy_rains_and_ocean_storms.jpeg){:style="width: auto; max-height: 600px;"}
+</div>
+<div class="col-sm-7 col-md-8">
+![xfel etched art](static/img/art/xfel_etching5.jpeg){:style="width: auto; max-height: 600px;"}
 </div>
 
 _Fact: Iris is 70% coffee by volume._
