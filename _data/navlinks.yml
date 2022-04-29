@@ -2,6 +2,10 @@
   url: /
   group: home
 
+- name: coffee
+  url: /coffee
+  group: coffee
+
 - name: publications
   url: /publications
   group: publications
@@ -9,7 +13,3 @@
 - name: reviews
   url: /reviews
   group: reviews
-
-- name: posts
-  url: /posts
-  group: posts

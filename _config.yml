@@ -27,5 +27,3 @@ collections:
                 output: true
         reviews:
                 output: true
-        posts:
-                output: true
