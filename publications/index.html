@@ -10,8 +10,8 @@ group: publications
 <hr>
 <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
 	<div>
-		<h5>{{ publication.title | markdownify  | remove: '<p>' | remove: '</p>' }}</h5>
-		<h6>{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
+		<h3>{{ publication.title | markdownify  | remove: '<p>' | remove: '</p>' }}</h3>
+		<h4>{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}</h4>
 		{% if publication.journal %}
 			<i>{{ publication.journal }},</i>
 			{{publication.pub_date | split: "-" | first }}
@@ -32,7 +32,7 @@ group: publications
 	</div>
 	<ul class="col-sm-6">
 		<br>
-		<h6>Access the paper</h6>
+		<h5>Access the paper</h5>
 		<!--PMID-->
 		{% if publication.pmid %}
 		<li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" title = "PubMed: {{publication.pmid}} (opens in new tab)" target="_blank"> {{publication.pmid}}</a></li>
@@ -149,7 +149,7 @@ group: publications
 		<!--additional links - optional-->
 		{% if publication.links %}
 			<br>
-			<h6>Additional Link{% if publication.links.size > 1 %}s{% endif %}</h6>
+			<h5>Additional Link{% if publication.links.size > 1 %}s{% endif %}</h5>
 			{% for link in publication.links %}
 				<li><a href="{{link.url}}" alt="{{link.name}} (opens in new tab)" target="_blank">{{link.name}}</a></li>
 			{% endfor %}

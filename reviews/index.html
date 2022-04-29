@@ -9,9 +9,9 @@ group: reviews
 {% for review in site.reviews reversed %}
 	<hr>
 	<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{review.date}}">
-	<div><h5>{{ review.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}.<br></h5>
-	<h6>{{ review.authors | markdownify | remove: '<p>' | remove: '</p>' | strip}}.</h6><br>
-	Reviewed by: <strong>{{ review.reviewers | markdownify | remove: '<p>' | remove: '</p>' | strip }}.</strong><br><br>
+	<div><h3>{{ review.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}.<br></h3>
+	<h4>{{ review.authors | markdownify | remove: '<p>' | remove: '</p>' | strip}}.</h4><br>
+	Reviewed by: {{ review.reviewers | markdownify | remove: '<p>' | remove: '</p>' | strip }}.<br><br>
 	</div>
 	{% if review.abstract %}
 	<div>{{ review.abstract | markdownify | remove: '<p>' | remove: '</p>' }}</div>
@@ -20,9 +20,9 @@ group: reviews
 	</div>
 
 	<div class="row" style="padding-top: 20px; margin-top: -20px">
-		<div class="col">
+		<div class="col-sm-6">
 			{% if review.image %}
-			<img class = "img-fluid" src = "{{review.image}}" alt = "Representative Image" style="max-height: 250px;; margin-right: 30px">
+			<img class = "img-fluid" src = "{{review.image}}" alt = "Representative Image" style="max-height: 300px; max-width: 70%; margin-right: 30px">
 			{% endif %}
 		</div>
 		<ul class="col">
@@ -77,8 +77,8 @@ group: reviews
 		</ul>
 		<ul class="col">
 		{% if review.published %}
-			<h5>Post-Review</h5>
-			<h6>Access the paper</h6>
+			<br>
+			<h5>Access the paper</h5>
 			{% for record in review.published %}
 				{% if record.pmid %}
 				<li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{record.pmid}}" target="_blank" alt = "pubmed link: {{record.pmid}}">{{record.pmid}}</a></li>
@@ -89,7 +89,7 @@ group: reviews
 			{% endfor %}
 
 			{% if review.highlight %}
-				<br><h6>Highlight</h6>
+				<br><h5>Highlight</h5>
 				{% for record in review.highlight %}
 					<!--Article Title-->
 					{% if record.title %}
