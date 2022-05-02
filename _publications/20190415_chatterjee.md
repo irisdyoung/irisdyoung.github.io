@@ -8,4 +8,8 @@ pmid: 30793319
 pmcid: PMC6478542
 doi: 10.1111/ppl.12947
 pdf: '/static/pdf/2019_chatterjee.pdf'
+labs:
+- yyk: yes
+- messinger: yes
+- zouni: yes
 ---

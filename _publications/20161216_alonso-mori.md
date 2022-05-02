@@ -8,4 +8,14 @@ pmid: 27711803
 pmcid: PMC5177497
 doi: 10.1039/c6fd00084c
 pdf: '/static/pdf/2016_alonso-mori.pdf'
+labs:
+- yyk: yes
+- zouni: yes
+- sauter: yes
+- cxi: yes
+- sacla: yes
+- ssrl: yes
+- als: yes
+- jcap: yes
+- unicat: yes
 ---

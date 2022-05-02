@@ -17,9 +17,9 @@ zenodo:
 github:
 - description: qPTxM
   url: fraser-lab/qptm
-links:
-- name: Frost lab @ UC San Francisco
-  url: https://frostlab.org/
-- name: Fujimori lab @ UC San Francisco
-  url: https://fujimorilab.ucsf.edu
+labs:
+- fujimori: yes
+- frost: yes
+- fraser: yes
+- em_ucsf: yes
 ---

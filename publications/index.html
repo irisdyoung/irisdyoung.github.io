@@ -27,13 +27,13 @@ group: publications
 </div>
 
 <div class="row" style="padding-top: 20px; margin-top: -20px">
-	<div class="col-sm-6">
+	<div class="col-sm-8">
 		<br>
-		<img class = "img-fluid" src = "{{publication.image}}" alt =  "Key Figure" style="max-height: 200px; max-width: 90%">
+		<img class = "img-fluid" src = "{{publication.image}}" alt =  "Key Figure" style="max-height: 600px; max-width: 90%">
 	</div>
-	<ul class="col-sm-6">
+	<ul class="col-sm-4">
 		<br>
-		<h5>Access the paper</h5>
+		<h5>Access the Work</h5>
 		<!--PMID-->
 		{% if publication.pmid %}
 		<li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" title = "PubMed: {{publication.pmid}} (opens in new tab)" target="_blank"> {{publication.pmid}}</a></li>
@@ -153,6 +153,211 @@ group: publications
 			<h5>Additional Link{% if publication.links.size > 1 %}s{% endif %}</h5>
 			{% for link in publication.links %}
 				<li><a href="{{link.url}}" alt="{{link.name}} (opens in new tab)" target="_blank">{{link.name}}</a></li>
+			{% endfor %}
+		{% endif %}
+		<!--labs associated - optional-->
+		{% if publication.labs %}
+			<br>
+			<h5>Core Collaborators and Facilities</h5>
+			{% for lab in publication.labs %}
+				{% if lab.ahel %}
+					<li><a href="https://ivanahellab.wixsite.com/ivan-ahel-lab" alt="Ahel lab" target="_blank">Ahel lab @ Oxford</a></li>
+				{% endif %}
+				{% if lab.afm_ibs %}
+					<li><a href="https://www.ibs.fr/research/research-groups/methods-and-electron-microscopy-group/pellequer-team/article/afm-team-presentation?lang=fr" alt="IBS AFM" target="_blank">IBS AFM</a></li>
+				{% endif %}
+				{% if lab.als %}
+					<li><a href="https://als.lbl.gov/" alt="ALS" target="_blank">Advanced Light Source @ LBNL</a></li>
+				{% endif %}
+				{% if lab.aps %}
+					<li><a href="https://www.aps.anl.gov/" alt="Advanced Photon Source" target="_blank">Advanced Photon Source @ Argonne</a></li>
+				{% endif %}
+				{% if lab.bergmann %}
+					<li><a href="https://bergmann.physics.wisc.edu/" alt="Bergmann lab" target="_blank">Bergmann lab @ University of Wisconson-Madison</a></li>
+				{% endif %}
+				{% if lab.bessy %}
+					<li><a href="https://www.helmholtz-berlin.de/forschung/quellen/bessy/index_en.html" alt="BESSY II Light Source" target="_blank">BESSY II Light Source</a></li>
+				{% endif %}
+				{% if lab.boal %}
+					<li><a href="https://sites.psu.edu/boalgroup/" alt="Boal group" target="_blank">Boal group @ Penn State</a></li>
+				{% endif %}
+				{% if lab.bollinger-krebs %}
+					<li><a href="https://sites.psu.edu/bollingerkrebsgroup/carsten-krebs/" alt="Bollinger-Krebs group" target="_blank">Bollinger-Krebs group @ Penn State</a></li>
+				{% endif %}
+				{% if lab.brunger %}
+					<li><a href="https://atbweb.stanford.edu/" alt="Brunger lab" target="_blank">Brunger lab @ Stanford</a></li>
+				{% endif %}
+				{% if lab.bsl3_sinai %}
+					<li><a href="https://icahn.mssm.edu/research/global-health/emerging-pathogens" alt="BSL-3 lab @ Mount Sinai" target="_blank">BSL-3 lab @ Mount Sinai</a></li>
+				{% endif %}
+				{% if lab.cci %}
+					<li><a href="https://cci.lbl.gov/" alt="CCI" target="_blank">Computational Crystallography Initiative (Adams group) @ LBNL</a></li>
+				{% endif %}
+				{% if lab.cascio %}
+					<li><a href="https://www.doe-mbi.ucla.edu/cascio/" alt="Cascio lab" target="_blank">Cascio lab @ UC Los Angeles</a></li>
+				{% endif %}
+				{% if lab.cohen %}
+					<li><a href="https://profiles.stanford.edu/aina-cohen" alt="Aina Cohen" target="_blank">Aina Cohen @ SLAC</a></li>
+				{% endif %}
+				{% if lab.colletier %}
+					<li><a href="https://www.ibs.fr/research/research-groups/research-groups/dynamics-and-kinetics-of-molecular-processes-group/snax/article/presentation?lang=fr" alt="Colletier lab" target="_blank">Serial nanocrystallography group (Jacques-Philippe Colletier) @ Institut de Biologie Structurale</a></li>
+				{% endif %}
+				{% if lab.cxi %}
+					<li><a href="https://lcls.slac.stanford.edu/instruments/cxi" alt="LCLS CXI endstation" target="_blank">LCLS CXI endstation</a></li>
+				{% endif %}
+				{% if lab.demirci %}
+					<li><a href="https://www.researchgate.net/lab/Hasan-Demirci-Lab" alt="DeMirci lab" target="_blank">DeMirci lab @ Stanford</a></li>
+				{% endif %}
+				{% if lab.diamond %}
+					<li><a href="https://www.diamond.ac.uk/Home.html" alt="Diamond Light Source" target="_blank">Diamond Light Source</a></li>
+				{% endif %}
+				{% if lab.dobbek %}
+					<li><a href="https://www.unisyscat.de/people/current-group-leaders/dobbek-holger.html" alt="Dobbek lab" target="_blank">Dobbek lab @ UniSysCat</a></li>
+				{% endif %}
+				{% if lab.em_caltech %}
+					<li><a href="https://beckmaninstitute.caltech.edu/cryo-em-center/" alt="Caltech Cryo-EM Center" target="_blank">Caltech Cryo-EM Center</a></li>
+				{% endif %}
+				{% if lab.dials %}
+					<li><a href="https://dials.github.io/" alt="DIALS" target="_blank">DIALS</a></li>
+				{% endif %}
+				{% if lab.em_grenoble %}
+					<li><a href="https://www.embl.org/services-facilities/grenoble/cryoem/" alt="EMBL EM facility" target="_blank">EMBL EM facility</a></li>
+				{% endif %}
+				{% if lab.em_ucsf %}
+					<li><a href="https://emcore.ucsf.edu/" alt="UCSF EM Core" target="_blank">UCSF EM Core</a></li>
+				{% endif %}
+				{% if lab.es-cat %}
+					<li><a href="https://es-cat.online/" alt="ES-CAT" target="_blank">ES-CAT</a></li>
+				{% endif %}
+				{% if lab.euxfel %}
+					<li><a href="https://www.xfel.eu/" alt="EuXFEL" target="_blank">European XFEL</a></li>
+				{% endif %}
+				{% if lab.federici %}
+					<li><a href="https://entomology.ucr.edu/people/brian-federici" alt="Federici lab" target="_blank">Federici lab @ UC Riverside</a></li>
+				{% endif %}
+				{% if lab.fraser %}
+					<li><a href="https://fraserlab.com/" alt="Fraser lab" target="_blank">Fraser lab @ UCSF</a></li>
+				{% endif %}
+				{% if lab.frost %}
+					<li><a href="https://frostlab.org/" alt="Frost lab" target="_blank">Frost lab @ UCSF</a></li>
+				{% endif %}
+				{% if lab.fujimori %}
+					<li><a href="https://fujimorilab.ucsf.edu" alt="Fujimori lab" target="_blank">Fujimori lab @ UCSF</a></li>
+				{% endif %}
+				{% if lab.fuller %}
+					<li><a href="https://profiles.stanford.edu/franklin-fuller" alt="Franklin Fuller" target="_blank">Franklin Fuller @ SLAC</a></li>
+				{% endif %}
+				{% if lab.gati %}
+					<li><a href="https://dornsife.usc.edu/labs/gati-lab/" alt="Gati lab" target="_blank">Gati lab @ USC</a></li>
+				{% endif %}
+				{% if lab.gonen %}
+					<li><a href="https://cryoem.ucla.edu/" alt="Gonen lab" target="_blank">Gonen lab @ UC Los Angeles</a></li>
+				{% endif %}
+				{% if lab.gratton %}
+					<li><a href="https://engineering.uci.edu/users/enrico-gratton" alt="Gratton lab" target="_blank">Gratton lab @ UC Irvine</a></li>
+				{% endif %}
+				{% if lab.gutsche %}
+					<li><a href="https://www.ibs.fr/research/research-groups/microscopic-imaging-of-complex-assemblies-mica-group-i-gutsche/?lang=fr" alt="Gutsche group" target="_blank">Gutsche group @ Institut de Biologie Structurale</a></li>
+				{% endif %}
+				{% if lab.hogbom %}
+					<li><a href="https://www.su.se/english/profiles/hogbom-1.182464?open-collapse-boxes=body-research" alt="Högbom lab" target="_blank">Högbom lab @ Stockholms Universitet</a></li>
+				{% endif %}
+				{% if lab.instruct_eric %}
+					<li><a href="https://instruct-eric.eu/" alt="Instruct-ERIC" target="_blank">Instruct-ERIC</a></li>
+				{% endif %}
+				{% if lab.jcap %}
+					<li><a href="https://solarfuelshub.org/" alt="JCAP" target="_blank">Joint Center for Artificial Photosynthesis (JCAP)</a></li>
+				{% endif %}
+				{% if lab.meents %}
+					<li><a href="https://cid.cfel.de/team/scientific_staff/alke_meents/" alt="Alke Meents" target="_blank">Alke Meents @ DESY/CFEL</a></li>
+				{% endif %}
+				{% if lab.messinger %}
+					<li><a href="https://katalog.uu.se/profile/?id=N16-1398" alt="Messinger lab" target="_blank">Messinger lab @ Uppsala Universitet</a></li>
+				{% endif %}
+				{% if lab.mfx %}
+					<li><a href="https://lcls.slac.stanford.edu/instruments/mfx" alt="LCLS MFX endstation" target="_blank">LCLS MFX endstation</a></li>
+				{% endif %}
+				{% if lab.mvl %}
+					<li><a href="http://mankin-vazquez.lab.uic.edu/html/index.cgi" alt="Mankin and Vazquez-Laslop lab" target="_blank">Mankin and Vazquez-Laslop lab @ University of Illinois at Chicago</a></li>
+				{% endif %}
+				{% if lab.nersc %}
+					<li><a href="https://www.nersc.gov/" alt="NERSC" target="_blank">NERSC @ LBNL</a></li>
+				{% endif %}
+				{% if lab.orville %}
+					<li><a href="https://www.diamond.ac.uk/Instruments/Mx/Research/Orville-Group.html" alt="Orville group" target="_blank">Orville group @ Diamond Light Source</a></li>
+				{% endif %}
+				{% if lab.pal %}
+					<li><a href="https://pal.postech.ac.kr/paleng/Menu.pal?method=menuView&pageMode=paleng&top=7&sub=6&sub2=1&sub3=0" alt="PAL-XFEL" target="_blank">PAL-XFEL</a></li>
+				{% endif %}
+				{% if lab.pellequer %}
+					<li><a href="https://www.ibs.fr/research/research-groups/methods-and-electron-microscopy-group/pellequer-team/?lang=fr" alt="Pellequer team" target="_blank">Pellequer group @ Institut de Biologie Structurale</a></li>
+				{% endif %}
+				{% if lab.phillips %}
+					<li><a href="https://www.phillipslab.org/" alt="Phillips lab" target="_blank">Phillips lab @ University of Wisconsin-Madison</a></li>
+				{% endif %}
+				{% if lab.puglisi %}
+					<li><a href="https://puglisi.stanford.edu/" alt="Puglisi lab" target="_blank">Puglisi lab @ Stanford</a></li>
+				{% endif %}
+				{% if lab.pulse %}
+					<li><a href="https://ultrafast.stanford.edu/" alt="Stanford PULSE Institute" target="_blank">Stanford PULSE Institute</a></li>
+				{% endif %}
+				{% if lab.qcrg %}
+					<li><a href="https://qbi.ucsf.edu/COVID-19" alt="QBI Coronavirus Research Group" target="_blank">QBI Coronavirus Research Group @ UCSF</a></li>
+				{% endif %}
+				{% if lab.sauter %}
+					<li><a href="https://biosciences.lbl.gov/profiles/nicholas-sauter/" alt="Sauter group" target="_blank">Sauter group @ LBNL</a></li>
+				{% endif %}
+				{% if lab.sacla %}
+					<li><a href=" http://xfel.riken.jp/eng/" alt="SACLA" target="_blank">SACLA XFEL</a></li>
+				{% endif %}
+				{% if lab.sawaya %}
+					<li><a href="https://www.doe-mbi.ucla.edu/sawaya/" alt="Michael Sawaya" target="_blank">Michael Sawaya @ UCLA-DOE Molecular Biology Institute</a></li>
+				{% endif %}
+				{% if lab.schlichting %}
+					<li><a href="https://www.mr.mpg.de/departments/biomolecular_machanisms/ilme_schlichting/curriculum_vitae" alt="Schlichting lab" target="_blank">Schlichting lab @ Max Planck Institute</a></li>
+				{% endif %}
+				{% if lab.slac %}
+					<li><a href="https://www6.slac.stanford.edu/" alt="SLAC" target="_blank">SLAC National Accelerator Laboratory</a></li>
+				{% endif %}
+				{% if lab.ssrl %}
+					<li><a href="https://www-ssrl.slac.stanford.edu/" alt="SSRL" target="_blank">Stanford Synchrotron Radiation Lightsource (SSRL)</a></li>
+				{% endif %}
+				{% if lab.stan %}
+					<li><a href="https://ultrafastx.github.io/" alt="Stan group" target="_blank">Stan group @ Rutgers-Newark</a></li>
+				{% endif %}
+				{% if lab.stuart %}
+					<li><a href="https://www.strubi.ox.ac.uk/research/professor-david-stuart-frs" alt="Stuart group" target="_blank">Stuart group @ Oxford</a></li>
+				{% endif %}
+				{% if lab.swissfel %}
+					<li><a href="https://www.psi.ch/en/swissfel" alt="SwissFEL" target="_blank">SwissFEL</a></li>
+				{% endif %}
+				{% if lab.tawfik %}
+					<li><a href="http://www.weizmann.ac.il/Biomolecular_Sciences/Tawfik/" alt="Tawfik lab" target="_blank">Tawfik lab @ Weizmann Institute</a></li>
+				{% endif %}
+				{% if lab.vierstra %}
+					<li><a href="https://vierstra.genetics.wisc.edu/" alt="Viersrta lab" target="_blank">Vierstra lab @ University of Wisconsin</a></li>
+				{% endif %}
+				{% if lab.wagner %}
+					<li><a href="https://www.diamond.ac.uk/Instruments/Mx/I23/Staff/Wagner.html" alt="Armin Wagner" target="_blank">Armin Wagner @ Diamond</a></li>
+				{% endif %}
+				{% if lab.weik %}
+					<li><a href="https://www.ibs.fr/research/research-groups/research-groups/dynamics-and-kinetics-of-molecular-processes-group/?lang=fr" alt="Weik lab" target="_blank">Dynamics and kinetics of molecular processes group (Martin Weik) @ Institut de Biologie Structurale</a></li>
+				{% endif %}
+				{% if lab.weis %}
+					<li><a href="https://med.stanford.edu/weis.html" alt="William Weis lab" target="_blank">William Weis lab @ Stanford</a></li>
+				{% endif %}
+				{% if lab.winterhalter %}
+					<li><a href="http://winterhalter.user.jacobs-university.de/" alt="Winterhalter lab" target="_blank">Winterhalter lab @ Jacobs University</a></li>
+				{% endif %}
+				{% if lab.xpp %}
+					<li><a href="https://lcls.slac.stanford.edu/instruments/xpp" alt="LCLS XPP endstation" target="_blank">LCLS XPP endstation</a></li>
+				{% endif %}
+				{% if lab.yyk %}
+					<li><a href="https://www2.lbl.gov/vkyachan/index.html" alt="Yano-Yachandra-Kern lab" target="_blank">Yano-Yachandra-Kern lab @ LBNL</a></li>
+				{% endif %}
+				{% if lab.zouni %}
+					<li><a href="https://www.biologie.hu-berlin.de/de/gruppenseiten/photobiophys" alt="Zouni lab" target="_blank">Zouni lab @ Humboldt Universität zu Berlin</a></li>
+				{% endif %}
 			{% endfor %}
 		{% endif %}
 	</ul>

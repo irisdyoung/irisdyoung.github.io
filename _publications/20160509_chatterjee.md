@@ -8,4 +8,7 @@ pmid: 28044099
 pmcid: PMC5201215
 doi: 10.1039/C6SC00512H
 pdf: '/static/pdf/2016_chatterjee.pdf'
+labs:
+- yyk: yes
+- ssrl: yes
 ---

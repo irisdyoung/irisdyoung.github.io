@@ -21,10 +21,11 @@ paired_maps_and_models:
   - pdb: "7RKJ"
     emdb: "24498"
 links:
-- name: 'Fujimori lab @ UC San Francisco'
-  url: 'https://fujimorilab.ucsf.edu'
-- name: 'Mankin and Vazquez-Laslop lab @ University of Illinois at Chicago'
-  url: 'http://mankin-vazquez.lab.uic.edu/html/index.cgi'
 - name: 'News and Views - Putting the antibiotics chloramphenicol and linezolid into context'
   url: 'http://cdn.fraserlab.com/publications/2022_crowe-mcaulife_wilson.pdf'
+labs:
+- fujimori: yes
+- fraser: yes
+- mvl: yes
+- em_ucsf: yes
 ---

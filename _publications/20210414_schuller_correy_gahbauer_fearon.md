@@ -272,8 +272,6 @@ links:
   url: https://fraserlab.com/macrodomain/
 - name: Fraganalysis from Diamond Lightsource
   url: https://fragalysis.diamond.ac.uk/viewer/react/preview/target/mArh
-- name: QBI Coronavirus Research Group @ UC San Francisco
-  url: https://qbi.ucsf.edu/COVID-19
 - name: Celebratory Tweetstorm from James Fraser
   url: https://twitter.com/fraser_lab/status/1281258107578937345
 - name: Celebratory Tweetstorm from Mike Thompson
@@ -284,4 +282,10 @@ links:
   url: http://practicalfragments.blogspot.com/2021/01/hundreds-of-fragments-hits-for-sars-cov.html
 - name: Massive fragment screen points way to new SARS-CoV-2 inhibitors  
   url: https://www.diamond.ac.uk/Home/News/LatestNews/2021/16-04-21.html
+labs:
+- ahel: yes
+- fraser: yes
+- diamond: yes
+- als: yes
+- qcrg: yes
 ---

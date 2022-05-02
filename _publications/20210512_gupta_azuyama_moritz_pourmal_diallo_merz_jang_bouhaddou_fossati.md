@@ -12,7 +12,7 @@ pdf:
 pdbs:
   - 7MSW
   - 7MSX
-links:
-- name: QBI Coronavirus Research Group @ UC San Francisco
-  url: https://qbi.ucsf.edu/COVID-19
+labs:
+- qcrg: yes
+- em_ucsf: yes
 ---

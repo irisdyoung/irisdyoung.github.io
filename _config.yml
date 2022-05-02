@@ -1,10 +1,6 @@
 title: "Iris Young"
 description: "This is my homepage. Hello! I am 70% coffee by volume."
 
-paginate: 5
-plugins: [jekyll-paginate]
-paginate_path: "blog/page:num"
-
 permalink: pretty
 markdown: kramdown
 kramdown:
