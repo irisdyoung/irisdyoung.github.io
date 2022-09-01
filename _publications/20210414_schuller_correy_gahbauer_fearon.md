@@ -4,10 +4,9 @@ authors: "Schuller M&#42;, Correy GJ&#42;, Gahbauer S&#42;, Fearon D&#42;, Wu T,
 journal: "Science Advances"
 pub_date: "2021-04-14"
 image: "/static/img/pub/2020_schuller_correy_gahbauer_fearon.jpg"
-pdf: "https://fraserlab.com/macrodomain/"
 pmid: "33853786"
 pmcid: "PMC8046379"
-biorxiv: "2020.11.24.393405"
+doi: "10.1126/sciadv.abf8711"
 pdf: "http://cdn.fraserlab.com/publications/2021_schuller_correy_gahbauer_fearon.pdf"
 zenodo:
 - code: "4716363"

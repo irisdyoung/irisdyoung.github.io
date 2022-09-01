@@ -7,6 +7,7 @@ image: '/static/img/pub/2020_stojkovic.jpg'
 pmid: '31989172'
 pmcid: 'PMC7049716'
 biorxiv: '695429'
+doi: '10.1093/nar/gkaa037'
 pdf: 'http://cdn.fraserlab.com/publications/2020_stojkovic.pdf'
 paired_maps_and_models:
 - pdb: 6PJ6
