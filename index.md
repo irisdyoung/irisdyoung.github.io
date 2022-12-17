@@ -7,15 +7,14 @@ group: home
 <div class="row">
 <div class="jumbotron h-100">
 <div class="col-sm-5">
-# Hello!
 {: .display-4}
 <br>
 
-![science coffee art](static/img/art/sci_coffee_art.jpeg){:style="width: auto; max-width: 90%;"}
+![Penrose tiling coffee art](static/img/art/coffee_penrose_03.png){:style="width: auto; max-width: 90%;"}
 </div>
 <div class="col">
 
-You have found Iris' homepage. It is probably not up to date, but maybe you can find something useful here anyway.
+Hello! You have found Iris' homepage. It is probably not up to date, but maybe you can find something useful here anyway.
 {: .welcomefont}
 
 Iris works as a project scientist in the [Sauter group](https://biosciences.lbl.gov/profiles/nicholas-sauter/) at [Lawrence Berkeley National Laboratory](https://www.lbl.gov/). He is focusing on two main projects right now, the [(sp)ectral (re)solution of (a)nomalous (d)ispersion (SPREAD)](http://dx.doi.org/10.1107/S2059798320000418) project and the [(exa)scale computing for X-ray (f)ree (e)lectron (l)aser diffraction experiments (ExaFEL)](https://www.exascaleproject.org/research-project/exafel/) project. Essentially, these involve the development of new computational capabilities to meet instrumental demands such as the megahertz pulse rate of LCLS II and to leverage the awesome potential of these experiments.
