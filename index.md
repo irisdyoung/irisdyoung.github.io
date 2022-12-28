@@ -22,7 +22,7 @@ Iris works as a project scientist in the [Sauter group](https://biosciences.lbl.
 
 Outside of the lab (and inside too), Iris is a coffee afficionado, student of various languages, avid reader, and companion to a very affectionate cat named Rory. When he has time he also enjoys aikido, pottery, cooking, and hiking. He is queer/trans/nonbinary and uses pronouns he/him, she/her, or they/them.
 
-Iris is reachable at [irisdyoung@gmail.com](mailto:irisdyoung@gmail.com). He is also active on [twitter](http://twitter.com/irisdyoung) and has some work on up [github](http://github.com/irisdyoung). Feature requests, bug reports, requests for troubleshooting help, wild ideas, and general inquiries welcome!
+Iris is reachable at [irisdyoung@gmail.com](mailto:irisdyoung@gmail.com). He is also active on <a rel="me" href="https://struct.bio/@irisvirus">mastodon</a> and has some work on up [github](http://github.com/irisdyoung). Feature requests, bug reports, requests for troubleshooting help, wild ideas, and general inquiries welcome!
 
 <br>
 
