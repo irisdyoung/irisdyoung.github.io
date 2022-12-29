@@ -6,11 +6,11 @@ group: home
 
 <div class="row">
 <div class="jumbotron h-100">
-<div class="col-sm-5">
+<div class="col-sm-6">
 {: .display-4}
 <br>
 
-![my photogenic cat Rory against a background of art](static/img/art/Rory_headboard_and_art.jpg){:style="width: auto; max-width: 90%;"}
+![my photogenic cat Rory against a background of art](static/img/art/Rory_headboard_and_art.jpg){:style="width: auto; max-width: 90%; margin:0"}
 </div>
 <div class="col">
 
@@ -23,8 +23,6 @@ Iris works as a project scientist in the [Sauter group](https://biosciences.lbl.
 Outside of the lab, Iris is a coffee afficionado, student of various languages, avid reader, and companion to a very affectionate cat named Rory. When he has time he also enjoys electronics, fixing stuff, 3d printing, sewing, aikido, pottery, cooking, and hiking. He is queer/trans/nonbinary and uses pronouns he/him, they/them or she/her.
 
 Iris is reachable at [irisdyoung@gmail.com](mailto:irisdyoung@gmail.com). He is also active on the fediverse via <a rel="me" href="https://struct.bio/@irisvirus">mastodon</a> and has some work on up [github](http://github.com/irisdyoung). All good faith inquiries/requests welcome!
-
-<br>
 
 _Fact: Iris is 70% coffee by volume._
 {: .welcomefont}
