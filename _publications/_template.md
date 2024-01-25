@@ -56,6 +56,7 @@ labs:
 - hogbom: yes
 - instruct_eric: yes
 - jcap: yes
+- locksley: yes
 - meents: yes
 - messinger: yes
 - mfx: yes
@@ -74,6 +75,7 @@ labs:
 - sawaya: yes
 - schlichting: yes
 - schofield: yes
+- seiple: yes
 - soltis: yes
 - ssrl: yes
 - stan: yes
@@ -82,8 +84,10 @@ labs:
 - tawfik: yes
 - thompson: yes
 - unicat: yes
+- vandyken: yes
 - vierstra: yes
 - wagner: yes
+- wall: yes
 - weik: yes
 - weis: yes
 - wernet: yes
