@@ -1,13 +1,13 @@
 ---
 title: ""
 authors: "**Young ID**." # use &#42; for co-first
-journal: ''
-pub_date: ''
+journal: 'Journal Full Name'
+pub_date: 'YYYY-MM-DD'
 image: '/static/img/pub/_'
-pmid: 
-pmcid: 
-biorxiv: 
-doi: 
+pmid: pubmed_id_string
+pmcid: pmcid_id_string
+biorxiv: doi.split('/')[-1]
+doi: doi
 pdf: '/static/pdf/_'
 pdbs:
 - 
@@ -91,6 +91,7 @@ labs:
 - weik: yes
 - weis: yes
 - wernet: yes
+- wilson: yes
 - winterhalter: yes
 - xpp: yes
 - yyk: yes
