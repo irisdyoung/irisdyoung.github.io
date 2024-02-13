@@ -6,7 +6,7 @@ pub_date: 'YYYY-MM-DD'
 image: '/static/img/pub/_'
 pmid: pubmed_id_string
 pmcid: pmcid_id_string
-biorxiv: doi.split('/')[-1]
+biorxiv: doi.split('/')[-1] # no version suffix -- screws up the link
 doi: doi
 pdf: '/static/pdf/_'
 pdbs:
