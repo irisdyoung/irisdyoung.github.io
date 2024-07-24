@@ -14,7 +14,7 @@ group: home
 </div>
 <div class="col">
 
-Hello! You have found Iris' homepage. **He is currently looking for work** and willing to relocate internationally.
+Hello! You have found Iris' homepage. **He is currently looking for work** and willing to relocate internationally (see [résumé](static/pdf/academic_cv_fullpubs_redacted.pdf) for skillset).
 {: .welcomefont}
 
 Iris worked most recently as a project scientist in the [Sauter group](https://biosciences.lbl.gov/profiles/nicholas-sauter/) at [Lawrence Berkeley National Laboratory](https://www.lbl.gov/) on the [(exa)scale computing for X-ray (f)ree (e)lectron (l)aser diffraction experiments (ExaFEL)](https://www.exascaleproject.org/research-project/exafel/) project, bringing our XFEL crystallography data processing tools to the exascale regime. As the world's five instruments capable of these experiments undergo upgrades to enable kHz or MHz image acquisition rates, we are preparing to be able to process these datasets in real time and provide the feedback necessary to drive these experiments. Our code is all open source and is available on github: the [cctbx_project](https://github.com/cctbx/cctbx_project) and [dials](https://github.com/dials/dials) repos make up the core of the codebase, while our scripts and notes for the ExaFEL project are available in the [exafel_project](https://github.com/ExaFEL/exafel_project) repo. Some side projects like the [diffraction simulation viewer](https://github.com/dermen/sim_erice) have their own homes as well.
