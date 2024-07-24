@@ -55,6 +55,7 @@ labs:
 - gutsche: yes
 - hogbom: yes
 - instruct_eric: yes
+- javid: yes
 - jcap: yes
 - locksley: yes
 - meents: yes
