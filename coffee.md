@@ -11,7 +11,7 @@ date: "2022-04-27"
 {: .display-4}
 <br>
 
-_The espresso machine is a superautomatic De Longhi ESAM3300 Magnifica located in 33-339C. It is free for anyone to use, and supplies are replenished on the honor system: please restock from time to time whatever resources you use._
+_The espresso machine is a superautomatic De Longhi ESAM3300 Magnifica. It is free for anyone to use, and supplies are replenished on the honor system: please restock from time to time whatever resources you use._
 
 ## General Usage
 
