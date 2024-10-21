@@ -21,7 +21,7 @@ Iris worked most recently as a project scientist in the [Sauter group](https://b
 
 {: .welcomefont}
 
-Outside of the lab, Iris is a coffee afficionado, student of various languages, avid reader, and companion to a very affectionate cat named Rory. When he has time he also enjoys electronics, fixing stuff, 3d printing, sewing, aikido, pottery, cooking, baking, bicycling and walking. He is queer/trans/nonbinary and uses pronouns he/him, they/them or she/her.
+Outside of the lab, Iris is a coffee afficionado, student of various languages, avid reader, and learner. When he has time he also enjoys electronics, fixing stuff, 3d printing, sewing, aikido, pottery, cooking, baking, bicycling and walking. He is queer/trans/nonbinary and uses pronouns he/him, they/them or she/her.
 
 Iris is reachable at [irisdyoung@gmail.com](mailto:irisdyoung@gmail.com). He is also active on the fediverse via <a rel="me" href="https://neuromatch.social/@iris">mastodon</a> and has some work on up [github](http://github.com/irisdyoung). Publications including associated links and full text pdfs are available on the [publications](https://irisdyoung.github.io/publications/) tab, and should also be associated with his [ORCID](https://orcid.org/0000-0003-4713-9504) record.
 
