@@ -10,7 +10,7 @@ group: home
 {: .display-4}
 <br>
 
-![Diffraction simulation artifacts](static/img/art/Teal_diffraction_simulation_artifacts.png){:style="width: auto; max-width: 90%; margin:0"}
+![Long-haired brown striped cat perched atop a patterned headboard, against a background of various science-themed art pieces.](static/img/art/Rory_headboard_and_art.jpg){:style="width: auto; max-width: 90%; margin:0"}
 </div>
 <div class="col">
 
