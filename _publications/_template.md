@@ -29,6 +29,7 @@ labs:
 - bessy: yes
 - boal: yes
 - bollinger-krebs: yes
+- brewster: yes
 - brunger: yes
 - bsl3_sinai: yes
 - cascio: yes
@@ -74,6 +75,7 @@ labs:
 - sacla: yes
 - sauter: yes
 - sawaya: yes
+- scheerer: yes
 - schlichting: yes
 - schofield: yes
 - seiple: yes
