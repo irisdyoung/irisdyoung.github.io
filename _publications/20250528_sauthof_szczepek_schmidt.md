@@ -5,7 +5,7 @@ journal: 'Science Advances'
 pub_date: '2025-05-28'
 image: '/static/img/pub/2025_sauthof_szczepek_schmidt.png'
 pmid: '40435264'
-# pmcid: ''
+pmcid: 'PMC12961760'
 doi: '10.1126/sciadv.adp2665'
 pdf: '/static/pdf/2025_sauthof_szczepek_schmidt.pdf'
 pdbs:
